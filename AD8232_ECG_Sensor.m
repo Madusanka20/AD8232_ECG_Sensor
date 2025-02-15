@@ -3,7 +3,7 @@ port = "COM6";          % Replace with your ESP32's COM port
 baudRate = 230400;      % Match the baud rate in your ESP32 code
 bufferSize = 500;       % Number of data points to display in the plot
 fs = 250;               % Sampling frequency
-lowPassCutoff = 100;    % Low-pass cutoff frequency in Hz
+lowPassCutoff = 150;    % Low-pass cutoff frequency in Hz
 highPassCutoff = 0.5;   % High-pass cutoff frequency in Hz
 
 % Ensure cutoff frequencies are within the valid range
